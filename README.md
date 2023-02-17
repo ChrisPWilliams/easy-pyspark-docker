@@ -13,7 +13,7 @@ Store python scripts in the scripts folder, and data in the data folder.
 
 When you want to run a script, just navigate into the scripts folder with 'cd scripts' and then run them as normal e.g. 'python3 mypysparktest.py'.
 
-You will also have access to the pyspark shell with the 'pyspark' command.
+You will also have access to the pyspark shell with the '~/opt/spark/bin/pyspark' command.
 
 If you want to open additional terminals into the container, just open a new terminal window, find the container id in docker desktop, and run 'docker exec -it <your_container_id> /bin/bash'.
 
