@@ -1,6 +1,6 @@
 services:
   pyspark:
-    image: apache/spark-py
+    image: apache/spark-py:latest
     command: /bin/bash
     volumes:
       - type: bind
